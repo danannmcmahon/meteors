@@ -1,3 +1,5 @@
+# Application in action : https://danannmcmahon.github.io/meteors/
+
 # This application allows the search of NASA's meteor API and displays results and information.
 # React, JavaScript, Jest, Rebass, React-Simple-Maps
 
@@ -10,7 +12,5 @@
 # The SVG globe places a marker element for the selected meteor.  When the globe is rotated, a calculation between the marker and user POV is made to determine when the marker should be hidden.
 
 # When a meteor is selected, the Info component parses the meteors class name and matches the result to a class definition which is in turn displayed.
-
-# Hosted on gitpages
 
 # 18/Nov - 02/Dec 2020
