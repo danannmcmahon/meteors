@@ -27,8 +27,8 @@ function App() {
             matches ? (
       
       <Switch>
-        <Route exact path='/' render={(props) => <SearchView {...props} json={meteorJSON} clickj={setMetJSON} clicki={setMetID} setPar={setSearchPar} metID={meteorID} sp={searchPar} />} />
-        <Route exact path='/detail' render={(props) => <DetailView {...props} met={meteorID} />} />
+        <Route exact path='/meteors/' render={(props) => <SearchView {...props} json={meteorJSON} clickj={setMetJSON} clicki={setMetID} setPar={setSearchPar} metID={meteorID} sp={searchPar} />} />
+        <Route exact path='/meteors/detail' render={(props) => <DetailView {...props} met={meteorID} />} />
       </Switch>
 
             ):(
