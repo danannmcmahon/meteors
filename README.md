@@ -13,6 +13,4 @@
 
 # When a meteor is selected, the Info component parses the meteors class name and matches the result to a class definition which is in turn displayed.
 
-# Hosted on gitpages
-
 # 18/Nov - 02/Dec 2020
