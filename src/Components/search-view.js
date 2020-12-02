@@ -38,7 +38,7 @@ export class SearchView extends Component {
         return(
         <React.Fragment>
             <div className="searchGrid">
-            <Nav link='/detail' text='Meteor Information >' />
+            <Nav link='/meteors/detail' text='Meteor Information >' />
             <div id='sgrid-1'>
                 <Search click={this.handleClick} sp={this.props.sp}/>
             </div>
