@@ -45,9 +45,9 @@ function checkBreaks(s){
 
         if(chars.length>0){
 
-        for(var ia=0;i<chars.length;ia++){
+        for(var i=0;i<chars.length;i++){
             for(var j=0;j<s.length;j++){
-                if(s.charAt(j) !== chars[ia]){
+                if(s.charAt(j) !== chars[i]){
                     clsi2 += s.charAt(j);
                 }else{
                     j += 10;
@@ -64,8 +64,8 @@ function checkBreaks(s){
 let year = "";
 
 if(props.met.year !== undefined){
-    for(var ib=0;ib<4;ib++){
-        year += props.met.year.charAt(ib);
+    for(var i=0;i<4;i++){
+        year += props.met.year.charAt(i);
     }
 }
 
