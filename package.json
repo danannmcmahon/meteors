@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://danannmcmahon.github.io/meteors",
+  "type": "module",
   "dependencies": {
     "@emotion/react": "^11.1.1",
     "@iconify/react": "^1.1.3",
