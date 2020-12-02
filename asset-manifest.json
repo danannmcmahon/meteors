@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/meteors/static/css/main.32090641.chunk.css",
+    "main.js": "/meteors/static/js/main.440de070.chunk.js",
+    "main.js.map": "/meteors/static/js/main.440de070.chunk.js.map",
+    "runtime-main.js": "/meteors/static/js/runtime-main.cfb34799.js",
+    "runtime-main.js.map": "/meteors/static/js/runtime-main.cfb34799.js.map",
+    "static/css/2.7fe95f8e.chunk.css": "/meteors/static/css/2.7fe95f8e.chunk.css",
+    "static/js/2.5ad707ab.chunk.js": "/meteors/static/js/2.5ad707ab.chunk.js",
+    "static/js/2.5ad707ab.chunk.js.map": "/meteors/static/js/2.5ad707ab.chunk.js.map",
+    "static/js/3.00f9d8ab.chunk.js": "/meteors/static/js/3.00f9d8ab.chunk.js",
+    "static/js/3.00f9d8ab.chunk.js.map": "/meteors/static/js/3.00f9d8ab.chunk.js.map",
+    "index.html": "/meteors/index.html",
+    "static/css/2.7fe95f8e.chunk.css.map": "/meteors/static/css/2.7fe95f8e.chunk.css.map",
+    "static/css/main.32090641.chunk.css.map": "/meteors/static/css/main.32090641.chunk.css.map",
+    "static/js/2.5ad707ab.chunk.js.LICENSE.txt": "/meteors/static/js/2.5ad707ab.chunk.js.LICENSE.txt",
+    "static/media/logo.c10154f2.svg": "/meteors/static/media/logo.c10154f2.svg",
+    "static/media/space-bg4.01404277.jpg": "/meteors/static/media/space-bg4.01404277.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfb34799.js",
+    "static/css/2.7fe95f8e.chunk.css",
+    "static/js/2.5ad707ab.chunk.js",
+    "static/css/main.32090641.chunk.css",
+    "static/js/main.440de070.chunk.js"
+  ]
+}
