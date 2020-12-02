@@ -32,18 +32,7 @@ function Info(props) {
     }
 }
 
-function checkLower(clso){
-    var cut=-1;
-    for(var i=2;i<clso.length;i++){
-        if(clso.charAt(i) === clso.charAt(i).toLowerCase){
-            cut = i;
-        }
-    }
-    if(cut !== -1){
-        clso = clso.slice(0,cut);
-    }
-    console.log(clso);
-}
+
 
 function checkBreaks(s){
         var chars = [];
@@ -56,9 +45,9 @@ function checkBreaks(s){
 
         if(chars.length>0){
 
-        for(var i=0;i<chars.length;i++){
+        for(var ia=0;i<chars.length;ia++){
             for(var j=0;j<s.length;j++){
-                if(s.charAt(j) !== chars[i]){
+                if(s.charAt(j) !== chars[ia]){
                     clsi2 += s.charAt(j);
                 }else{
                     j += 10;
@@ -75,8 +64,8 @@ function checkBreaks(s){
 let year = "";
 
 if(props.met.year !== undefined){
-    for(var i=0;i<4;i++){
-        year += props.met.year.charAt(i);
+    for(var ib=0;ib<4;ib++){
+        year += props.met.year.charAt(ib);
     }
 }
 
