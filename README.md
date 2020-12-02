@@ -5,7 +5,7 @@
 
 # There are four 'panel' components which allow user interaction and to display data.  All four are shown on desktop versions while two are shown at a time on mobile or smaller windows, controlled by conditional routing.
 
-# The search funciton limits results to 1000 items, sorted by mass in descending order.  Search parameters (year and mass) are controller by sliders.
+# The search funciton limits results to 1000 items, sorted by mass in descending order.  Search parameters (year and mass) are controlled by sliders.
 
 # The SVG globe places a marker element for the selected meteor.  When the globe is rotated, a calculation between the marker and user POV is made to determine when the marker should be hidden.
 
