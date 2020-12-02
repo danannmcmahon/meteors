@@ -34,7 +34,7 @@ function List(props) {
                 
       <Scrollbar style={{ width: '100%', height: 340 }}>
               {p.map((m) => (
-                  <Link to='detail' onClick={() => props.click(m)} key={m.id}>
+                  <Link to='/meteors/detail' onClick={() => props.click(m)} key={m.id}>
                     <ListItem met={m} s={s}/>
                   </Link>
               ))}
