@@ -12,7 +12,7 @@ export class DetailView extends Component {
             
 
             <div className="detailGrid">
-            <Nav link='/' text='< Meteor Selection' />
+            <Nav link='/meteors/' text='< Meteor Selection' />
             <div id='dgrid-1'>
             <Map met={this.props.met} />
             </div>
