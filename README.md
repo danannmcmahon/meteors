@@ -1,16 +1,15 @@
-# Application in action : https://danannmcmahon.github.io/meteors/
+Application in action : https://danannmcmahon.github.io/meteors/
 
-# This application allows the search of NASA's meteor API and displays results and information.
 # React, JavaScript, Jest, Rebass, React-Simple-Maps
 
-# I've included a SVG Globe and a custom definitions JSON file to enhance UX.
+This application fetches data from NASA's metero API, then displays the largest 1000 results by mass.  Clicking on a result will display the location of the meteor on a SVG map with accompanied information.
 
-# There are four 'panel' components which allow user interaction and to display data.  All four are shown on desktop versions while two are shown at a time on mobile or smaller windows, controlled by conditional routing.
+# User interaction with the map is controlled with sliders.
 
-# The search funciton limits results to 1000 items, sorted by mass in descending order.  Search parameters (year and mass) are controlled by sliders.
+The SVG globe has a marker placed for the selected meteor location.  When the globe is rotated, a calculation between the marker and user POV is made to determine when the marker should be hidden.
 
-# The SVG globe has a marker placed for the selected meteor.  When the globe is rotated, a calculation between the marker and user POV is made to determine when the marker should be hidden.
+# Meteor class description
 
-# When a meteor is selected, the Info component parses the meteors class name and matches the result to a class definition which is in turn displayed.
+When a meteor is selected, it's class name is parsed and matched to a class definition, displayed in the Info panel.
 
-# 18/Nov - 02/Dec 2020
+18/Nov - 02/Dec 2020
